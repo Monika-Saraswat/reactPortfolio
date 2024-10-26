@@ -25,7 +25,7 @@ const ContactForm = () => {
     e.preventDefault();
     setButtonText('Sending...');
     try {
-      const response = await fetch("http://localhost:8080/contact", {
+      const response = await fetch("https://reactportfolio-1-thlv.onrender.com", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
