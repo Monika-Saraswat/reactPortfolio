@@ -11,7 +11,8 @@ const app=express()
 app.use(cors({
     origin: 'https://portfoliomonika.onrender.com',
     methods: ['GET', 'POST'],
-    allowedHeaders: ['Content-Type']
+    allowedHeaders: ['Content-Type'],
+    credentials: true
   }));
 app.use(express.json())
 app.use('/',router)
