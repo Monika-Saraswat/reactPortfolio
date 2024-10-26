@@ -9,7 +9,7 @@ const password = process.env.pass;
 
 const app=express()
 app.use(cors({
-    origin: 'http://localhost:3000',
+    origin: 'https://portfoliomonika.onrender.com',
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
   }));
