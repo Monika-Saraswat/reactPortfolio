@@ -57,9 +57,7 @@ const ContactForm = () => {
           <img src={contactImg} alt="contactinfo"/>
           </Col>
           <Col md={6}>
-          <TrackVisibility>
-        {({ isVisible }) => (
-          <div className={isVisible ? "animate__animated animate__fadeInRight" : ""}>
+          <div className="animate__animated animate__fadeInRight">
           <h2>Get In Touch</h2>
           <form onSubmit={handleSubmit}>
             <Row>
@@ -84,8 +82,6 @@ const ContactForm = () => {
             </Row>
           </form>
           </div>
-            )}
-            </TrackVisibility>
           </Col>
         </Row>
       </Container>
