@@ -48,7 +48,12 @@ p, a, li, button, ul {
   line-height: normal;
   text-decoration: none;
 }
-
+.element {
+  transition: all 0.3s ease;
+}
+html {
+  scroll-behavior: smooth;
+}
 a:hover {
   text-decoration: none;
 }

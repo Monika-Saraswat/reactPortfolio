@@ -13,7 +13,7 @@ import TrackVisibility from "react-on-screen";
 
 export default function App() {
   return (
-    <Container className="skill" id="education">
+    <Container className="skill element" id="education">
       <TrackVisibility>
         {({ isVisible }) => (
           <div className={isVisible ? "animate__animated animate__bounce" : ""}>

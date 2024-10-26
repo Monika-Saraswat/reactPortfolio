@@ -50,7 +50,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section className='contact' id='contact'>
+    <section className='contact element' id='contact'>
       <Container>
         <Row className="align-items-center">
           <Col md={6}>

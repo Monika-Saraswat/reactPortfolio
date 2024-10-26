@@ -27,7 +27,7 @@ const Project = () => {
       image: ecommerce,
       title: "Ecommerce Website",
       github: "https://github.com/Monika-Saraswat/e-commerce",
-      liveDemo: "https://e-commerce-gly1.onrender.com/",
+      liveDemo: "https://e-commerce-1-18l4.onrender.com",
     },
     {
       image: coffee,
@@ -44,7 +44,7 @@ const Project = () => {
   ];
 
   return (
-    <section className="project" id="projects">
+    <section className="project element" id="projects">
       <Container>
         <Row>
           <Col size={12}>
