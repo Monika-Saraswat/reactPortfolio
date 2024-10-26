@@ -653,3 +653,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .contact form button:hover::before {
   width: 100%;
 }
+.contact form input, .contact form textarea, .contact form button {
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding is included in width */
+}
+
